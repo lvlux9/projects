@@ -2,7 +2,7 @@ html{
     box-sizing: border-box;
 }
 body{
-    background-color: aliceblue;
+    background-color: lightcoral;
     display: flex;
     justify-content: center;
     margin-top: 5em;
@@ -51,7 +51,10 @@ h1{
     justify-content: space-between;
     height: 6vh;
     width: 100%;
-    padding: .5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: .5em;
+    padding-right: .5em;
     border-radius: .75em;
 
 }
@@ -90,5 +93,5 @@ h1{
 }
 
 .contact-component:nth-child(2n){
-    background-color: aqua;
+    background-color: lightskyblue;
 }
