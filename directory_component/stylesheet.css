@@ -1,7 +1,8 @@
 body{
-    background-color: lightsteelblue;
+    background-color: aliceblue;
     display: flex;
     justify-content: center;
+    margin-top: 5em;
 }
 
 .container{
@@ -13,6 +14,7 @@ body{
     align-content: center;
     padding: 2em;
     border-radius: 2em;
+    min-width: 300px;
 }
 
 h1{
@@ -30,7 +32,7 @@ h1{
     border-width: .1em;
     color: lightgrey;
     text-align: center;
-    
+    font-size: .75em;
 }
 
 
@@ -46,6 +48,7 @@ h1{
     justify-content: space-between;
     height: 6vh;
     width: 100%;
+
 }
 
 .contact-component_profile{
@@ -60,6 +63,7 @@ h1{
     flex-direction: column;
     justify-content: space-around;  
     align-self: flex-start;
+    padding: .25em;
 }
 
 .contact-component_details_name{
