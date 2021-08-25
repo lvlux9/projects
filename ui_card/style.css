@@ -1,0 +1,70 @@
+html{
+    box-sizing: border-box;
+    display: flex;
+}
+
+.card{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: bisque;
+    border-radius: 1.5em;
+    height: 400px;
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}
+
+/* .profile_post_image{
+    flex-grow: auto;
+} */
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 25px;
+    width: 100%;
+
+}
+
+/* header elements */
+.profile_post_information, .profile_image, .more_icon, .profile_name, .profile_post_description{
+    height: 90%;
+    margin: 0;
+    padding: 0;
+}
+
+/* footer elements */
+.heart_icon, .messages_icon, .share_icon, .camera_icon{
+    height: 90%;
+}
+
+/* header elements order */
+.profile_image{
+    order: 1;
+}
+
+.profile_post_information{
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+
+}
+
+.more_icon{
+    order: 3;
+}
+
+
+
